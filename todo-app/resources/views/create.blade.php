@@ -24,7 +24,7 @@
         <label class="text-white">Description</label>
         <textarea name="description" cols="30" rows="10"></textarea>
 </div>
-        <button type="submit" class="btn btn-primary" style="margin-top: 5px;">Kirim</button>
+        <button type="submit" class="btn btn-primary" style="margin-top: 5px;">Kirim <i class="fa-sharp fa-solid fa-paper-plane"></i></button>
         
 </form>
 @endsection

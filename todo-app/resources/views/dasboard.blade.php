@@ -12,7 +12,7 @@
         </div>
     @endif
     <div id="runningtext">
-              <marquee behavio="scroll" scrollamount="2" onmouseover="this.stop() ;" onmouseout="this.start() ;" direction="right">NEURO`FAMILY</marquee> 
+              <marquee behavio="scroll" scrollamount="2" onmouseover="this.stop() ;" onmouseout="this.start() ;" direction="right">NEURO FAMILY</marquee> 
               </div>
 <h1 class='text-white mt-5'>Welcome To Neuro | Official</h1>
 

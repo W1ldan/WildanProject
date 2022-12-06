@@ -24,11 +24,11 @@
                         <a class="nav-link text-white" href="/data">Data</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="/create">Create</a>
+                        <a class="nav-link text-white btn btn-primary" href="/create">Create <i class="fa-solid fa-plus"></i></a>
                     </li>
                 </ul>
             </div>
-            <a class="btn btn-danger" href="/logout">Logout</a>
+            <a class="btn btn-danger" href="/logout">Logout  <i class="fa-solid fa-right-from-bracket"></i></a>
         </div>
     </nav>
     @endif

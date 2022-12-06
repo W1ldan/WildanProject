@@ -37,17 +37,17 @@
             <td>{{ $todo['description'] }}</td>
             <td>{{ \Carbon\Carbon::parse($todo['date'])->format('j F, Y') }}</td>
             <td>{{ $todo['status'] == 1 ? 'Complated' : 'On-Process' }}</td>
-            <td class="d-flex"><a href="/edit/{{$todo['id']}}" class="btn btn-primary me-2">Edit</a> 
+            <td class="d-flex"><a href="/edit/{{$todo['id']}}" class="btn btn-primary me-2"><i class="fa-sharp fa-solid fa-pencil"></i></a> 
         <form action="/destroy/{{$todo['id']}}" method="POST">
         @csrf
         @method('DELETE')
-        <button type="submit" class="btn btn-danger me-2"> Hapus </button>
+        <button type="submit" class="btn btn-danger me-2"><i class="fa-sharp fa-solid fa-trash"></i></button>
     </form>
     @if ($todo['status'] == 0)
     <form action="/complated/{{$todo['id']}}" method="POST">
     @csrf
     @method('PATCH')
-    <button type="submit" class=" btn btn-success"><i class="fa-solid fa-circle-check"></i></button>
+    <button type="submit" class=" btn btn-success">Completed <i class="fa-solid fa-circle-check"></i></button>
     </form>
     </td>
 
